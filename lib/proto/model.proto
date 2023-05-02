@@ -1,0 +1,28 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+  
+syntax = "proto3";
+    
+
+    
+
+    
+
+
+
+
+  
+message GPerson
+{
+
+  string name = 2;
+  int32 age = 3;
+  repeated string hobbies = 4;
+  GGender gender = 5;
+
+}   
+
+enum GGender {
+  G_GENDER_MALE = 0;
+  G_GENDER_FEMALE = 1;
+}   
+

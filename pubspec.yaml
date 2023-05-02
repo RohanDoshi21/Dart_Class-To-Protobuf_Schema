@@ -1,0 +1,32 @@
+name: dart_class_to_protobuf_schema
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+    sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    cupertino_icons: ^1.0.2
+
+    # Protobuf Dependencies
+    protobuf: ^2.1.0
+    proto_generator: ^4.0.0-dev.12    # Use this version specifically
+    proto_annotations: ^3.0.0-dev.3   # Use this version specifically
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+
+    flutter_lints: ^2.0.0
+
+    # To generate protobuf files
+    build_runner: ^2.3.3
+
+flutter:
+    uses-material-design: true
